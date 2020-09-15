@@ -1,0 +1,16 @@
+{
+  "video": false,
+  "chromeWebSecurity": false,
+  "-baseUrl": "https://actio-pre.dipta.cat/userdirect",
+  "__baseUrl": "https://iquinto.intranet.dtgna:8443",
+  "baseUrl": "https://actio-pre.dipta.cat",
+  "env": {
+    "userAdmin": "iquinto",
+    "userGestor": "mdroo",
+    "password": "st3ria4lt",
+    "localURL": "https://iquinto.intranet.dtgna:8443",
+    "preURL": "https://actio-pre.dipta.cat"
+  }
+
+}
+

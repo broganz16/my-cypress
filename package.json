@@ -1,0 +1,25 @@
+{
+  "name": "userdirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.11.0",
+    "cypress-localstorage-commands": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run ",
+    "cy:run-one": "cypress run --spec cypress/integration/admin/UsuariListPageAdmin.spec.js",
+    "postcy:run": "npm run visualreport"
+  },
+  "engines": {
+    "node": ">=12.18.0",
+    "npm": ">=6.14.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
